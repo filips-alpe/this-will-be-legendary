@@ -1,0 +1,26 @@
+{
+  "name": "this-will-be-legendary",
+  "version": "0.0.1",
+  "description": "Legendary way to split up building and deploying apps with webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/filipsalpe/this-will-be-legendary",
+  "keywords": [
+    "legendary",
+    "app",
+    "deployment",
+    "with",
+    "webpack"
+  ],
+  "author": "Filips Alpe",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/filipsalpe/this-will-be-legendary/issues"
+  },
+  "homepage": "https://github.com/filipsalpe/this-will-be-legendary#readme",
+  "devDependencies": {
+    "webpack": "^2.2.1"
+  }
+}

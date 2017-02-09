@@ -3,6 +3,34 @@
   <head>
     <meta charset="UTF-8">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+        body {padding-top: 20%;}
+        html {background-color: black;}
+        @keyframes shake {
+            10%, 18%, 26% { transform: translate3d(0, -1px, 0); }
+            5%, 14%, 22%, 30% { transform: translate3d(0, 2px, 0); }
+            37%, 45%, 51%, 57%, 63% { transform: translate3d(0, 2px, 0); }
+            33%, 41%, 48%, 54%, 60%, 65% { transform: translate3d(0, -2px, 0); }
+            67%, 73%, 77%, 83%, 87%, 93% { transform: translate3d(0, 3px, 0); }
+            70%, 75%, 80%, 85%, 90%%, 95% { transform: translate3d(0, -3px, 0); }
+            97% { transform: translate3d(0, 2px, 0); }
+            100% { transform: translate3d(0, 0, 0); }
+        }
+        @keyframes scale {
+            from { font-size: 100px; }
+            to { font-size: 200px; }
+        }
+        @keyframes pulse {
+            0% { text-shadow: white 0 0 9px; }
+            50% { text-shadow: white 0 0 20px; }
+            100% { text-shadow: white 0 0 9px; }
+        }
+        @keyframes boom {
+            0% { text-shadow: white 0 0 9px; }
+            5% { text-shadow: white 0 0 100px; }
+            100% { text-shadow: white 0 0 9px; }
+        }
+    </style>
   </head>
   <body>
     <div id="root"></div>

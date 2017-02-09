@@ -9,7 +9,21 @@ const outputPath = path.resolve("../../dist");
 const dllPackages = [
     { name: "legendary-vendor", context: "./" },
     { name: "legendary-vendor", context: "../legendary-l/" },
+    { name: "legendary-vendor", context: "../legendary-e/" },
+    { name: "legendary-vendor", context: "../legendary-g/" },
+    { name: "legendary-vendor", context: "../legendary-n/" },
+    { name: "legendary-vendor", context: "../legendary-d/" },
+    { name: "legendary-vendor", context: "../legendary-a/" },
+    { name: "legendary-vendor", context: "../legendary-r/" },
+    { name: "legendary-vendor", context: "../legendary-y/" },
     { name: "legendary-l", context: "./node_modules/legendary-l/" },
+    { name: "legendary-e", context: "./node_modules/legendary-e/" },
+    { name: "legendary-g", context: "./node_modules/legendary-g/" },
+    { name: "legendary-n", context: "./node_modules/legendary-n/" },
+    { name: "legendary-d", context: "./node_modules/legendary-d/" },
+    { name: "legendary-a", context: "./node_modules/legendary-a/" },
+    { name: "legendary-r", context: "./node_modules/legendary-r/" },
+    { name: "legendary-y", context: "./node_modules/legendary-y/" },
 ];
 
 const dllPlugins = [];

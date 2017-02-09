@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <% htmlWebpackPlugin.options.dlls.forEach(dll => { %>
+      <script type="text/javascript" src="<%= dll %>"></script>
+    <% }) %>
+  </body>
+</html>

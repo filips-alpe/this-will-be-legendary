@@ -4,7 +4,9 @@
   "description": "Legendary way to split up building and deploying apps with webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dist": "lerna bootstrap",
+    "dist-index": "lerna bootstrap --scope legendary-landing-page",
+    "build": "lerna bootstrap --scope"
   },
   "repository": "https://github.com/filipsalpe/this-will-be-legendary",
   "keywords": [
@@ -21,7 +23,6 @@
   },
   "homepage": "https://github.com/filipsalpe/this-will-be-legendary#readme",
   "devDependencies": {
-    "webpack": "^2.2.1",
     "lerna": "2.0.0-beta.36"
   }
 }
